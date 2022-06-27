@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="1" total="3" passed="2" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2022-06-24T09:07:39 NPT" name="Suite" finished-at="2022-06-24T09:08:17 NPT" duration-ms="37736">
+    <groups>
+    </groups>
+    <test started-at="2022-06-24T09:07:39 NPT" name="Test" finished-at="2022-06-24T09:08:17 NPT" duration-ms="37736">
+      <class name="Others.Add_Referral">
+        <test-method is-config="true" signature="GBcareLogin()[pri:0, instance:Others.Add_Referral@5af97169]" started-at="2022-06-24T09:07:25 NPT" name="GBcareLogin" finished-at="2022-06-24T09:07:39 NPT" duration-ms="13984" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- GBcareLogin -->
+        <test-method is-config="true" signature="AddReferralPage()[pri:0, instance:Others.Add_Referral@5af97169]" started-at="2022-06-24T09:07:39 NPT" name="AddReferralPage" finished-at="2022-06-24T09:07:47 NPT" duration-ms="8187" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- AddReferralPage -->
+        <test-method signature="Enter_Mandatory_Data(java.lang.String)[pri:0, instance:Others.Add_Referral@5af97169]" started-at="2022-06-24T09:07:47 NPT" name="Enter_Mandatory_Data" finished-at="2022-06-24T09:08:11 NPT" duration-ms="23394" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[FCM]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Enter_Mandatory_Data -->
+        <test-method signature="select_product(java.lang.String)[pri:0, instance:Others.Add_Referral@5af97169]" started-at="2022-06-24T09:08:11 NPT" name="select_product" finished-at="2022-06-24T09:08:17 NPT" duration-ms="6078" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[FCM]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- select_product -->
+      </class> <!-- Others.Add_Referral -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
+</testng-results>
